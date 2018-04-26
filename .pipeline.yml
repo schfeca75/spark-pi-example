@@ -8,7 +8,7 @@ pipeline:
     google_service_account: fschneider@siq-haas.iam.gserviceaccount.com
     google_gke_version: "1.9"
     log_level: debug
-    cluster_status: deleted
+    cluster_state: deleted
 
     secrets: [plugin_endpoint, plugin_token]
 
