@@ -5,7 +5,7 @@ pipeline:
     cluster_provider: "google"
     google_project: "siq-haas"
     google_node_count: "2"
-    google_service_account: "fschneider@siq-haas.iam.gserviceaccount.com"
+    google_service_account: fschneider@siq-haas.iam.gserviceaccount.com
     secrets: [plugin_endpoint, plugin_token]
 
   install_monitoring:
