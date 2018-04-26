@@ -6,6 +6,8 @@ pipeline:
     google_project: "siq-haas"
     google_node_count: "2"
     google_service_account: fschneider@siq-haas.iam.gserviceaccount.com
+    google_gke_version: "1.9"
+    log_level: debug
     secrets: [plugin_endpoint, plugin_token]
 
   install_monitoring:
